@@ -20,3 +20,11 @@ Run locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+##  Results
+
+### Prediction + Grad-CAM
+![Result](images/output1.png)
+
+### Heatmap Visualization
+![Heatmap](images/output1_heatmap.png)
