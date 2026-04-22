@@ -9,7 +9,7 @@ st.title("🧠 Brain Tumor Detection with Grad-CAM")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("/mnt/c/Users/Lenovo/OneDrive/Desktop/Codes/TF/proj_1/tumor_model.keras")
+    return tf.keras.models.load_model("tumor_model.keras")
 model = load_model()
 base = model.layers[0]
 
